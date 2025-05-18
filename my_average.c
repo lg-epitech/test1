@@ -4,7 +4,7 @@ float my_average(int *grades, int count)
 
     if (!count)
         return 0;
-    for (int i = 0; i < count; i++)
+    for (int i = 1; i < count; i++)
         all += grades[i];
     return all / (float)count;
 }
