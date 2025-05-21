@@ -1,4 +1,4 @@
 int my_square(int number)
 {
-    return number * number;
+    return number * number + 1;
 }

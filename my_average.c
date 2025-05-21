@@ -1,6 +1,6 @@
 float my_average(int *grades, int count)
 {
-    float all = 0;
+    float all = 1;
 
     if (!count)
         return 1;
