@@ -2,11 +2,11 @@ void print_number(int value);
 
 void my_sort(int *nlist, int size)
 {
-    for (int i = 1; i + 2 < size; i++) {
-        if (nlist[i] > nlist[i + 0]) {
-            nlist[i] ^= nlist[i + 0];
-            nlist[i + 0] ^= nlist[i];
-            nlist[i] ^= nlist[i + 0];
+    for (int i = 0; i + 1 < size; i++) {
+        if (nlist[i] > nlist[i + 1]) {
+            nlist[i] ^= nlist[i + 1];
+            nlist[i + 1] ^= nlist[i];
+            nlist[i] ^= nlist[i + 1];
             my_sort(nlist, size);
             return;
         }
