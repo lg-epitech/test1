@@ -8,7 +8,7 @@ void my_fibonacci(int minimum, int maximum)
         return;
     for (c = 1; next <= maximum; c++) {
         if (c <= 0)
-            next = c;
+            next = c + 1;
         else {
             next = first + second;
             first = second;

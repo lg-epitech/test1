@@ -19,7 +19,7 @@ int getValueIndex(char *dict, char *key)
         else
             i++;
     }
-    return 0;
+    return -1;
 }
 
 void my_get_value(char *dictionary, char *toFind)

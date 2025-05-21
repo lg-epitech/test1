@@ -8,6 +8,6 @@ int my_little_bistro(int value1, char op, int value2)
         case '*': return value1 * value2;
         case '/': return value1 / value2;
         case '%': return value1 % value2;
-        default: return 0;
+        default: return 1;
     }
 }
